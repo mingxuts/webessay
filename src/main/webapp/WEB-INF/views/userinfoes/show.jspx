@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_myessay_model_Userinfo" object="${userinfo}" path="/userinfoes" z="Y2xfCZtXuAkZbasD4utTMRWpbjY=">
+        <field:display field="city" id="s_com_myessay_model_Userinfo_city" object="${userinfo}" z="FE5ieT4xIAXMag37J4wrKJm7RpM="/>
+        <field:display field="contactId" id="s_com_myessay_model_Userinfo_contactId" object="${userinfo}" z="b1CIPq1gtSVg4FxBZ69rMoovlYM="/>
+        <field:display field="contactType" id="s_com_myessay_model_Userinfo_contactType" object="${userinfo}" z="q8UofrK6VPEJ5lkkgAfMjE7SP/k="/>
+        <field:display field="country" id="s_com_myessay_model_Userinfo_country" object="${userinfo}" z="3KHRtCQYnq4ouSVVGFZUMjlgig4="/>
+        <field:display field="createBy" id="s_com_myessay_model_Userinfo_createBy" object="${userinfo}" z="yMO11FJTlTYCJKCSmEsNKAg6E2U="/>
+        <field:display calendar="true" dateTimePattern="${userinfo_createdate_date_format}" field="createDate" id="s_com_myessay_model_Userinfo_createDate" object="${userinfo}" z="0y3pI77I2t0/+XjpSzOelgDXA9s="/>
+        <field:display field="email" id="s_com_myessay_model_Userinfo_email" object="${userinfo}" z="CP5qHiNgVcf5hHpLe3pdrxpUmKY="/>
+        <field:display field="emailCode" id="s_com_myessay_model_Userinfo_emailCode" object="${userinfo}" z="nj+DMce0c+zbgMQJpji9FA0TIWw="/>
+        <field:display field="groupName" id="s_com_myessay_model_Userinfo_groupName" object="${userinfo}" z="bNA/nEspr3eSHvG3SWggN5l+fx4="/>
+        <field:display field="hasVerified" id="s_com_myessay_model_Userinfo_hasVerified" object="${userinfo}" z="EYL/7p0by6FEPY100pey+uEUOLI="/>
+        <field:display field="loginPassword" id="s_com_myessay_model_Userinfo_loginPassword" object="${userinfo}" z="i516+IFRXWL2hdOohPHui8qJzqU="/>
+        <field:display field="passwordNonExpired" id="s_com_myessay_model_Userinfo_passwordNonExpired" object="${userinfo}" z="yMw757c+VjuDRxuyRxXduGtuOyY="/>
+        <field:display field="lastName" id="s_com_myessay_model_Userinfo_lastName" object="${userinfo}" z="qj0eD4ePsGIXmMrS5K+S8WlTziQ="/>
+        <field:display field="firstName" id="s_com_myessay_model_Userinfo_firstName" object="${userinfo}" z="b5TVsyZx3SU0rOm1ojP+FcPvL1s="/>
+        <field:display field="special" id="s_com_myessay_model_Userinfo_special" object="${userinfo}" z="gdObzXuzCpWQ4sj06oZA9ZFyFBs="/>
+    </page:show>
+</div>

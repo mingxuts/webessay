@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_myessay_model_Order" items="${orders}" z="qX59pWa4FcCEmk7MRrz1GT95GF4=">
+        <table:table data="${orders}" id="l_com_myessay_model_Order" path="/orders" z="zhnXLpzPYBf3wXL3YR6XoS9EI8E=">
+            <table:column id="c_com_myessay_model_Order_coupon" property="coupon" z="46szweCv+7xJauEzQKYeLHMoSmc="/>
+            <table:column id="c_com_myessay_model_Order_courseLevel" property="courseLevel" z="vMvBQWiTQh1iz7k68d+Rf0piTMU="/>
+            <table:column calendar="true" dateTimePattern="${order_createdate_date_format}" id="c_com_myessay_model_Order_createDate" property="createDate" z="c2jbmbEZ2OZ3oHugZ6dDW0E3w9g="/>
+            <table:column id="c_com_myessay_model_Order_customerId" property="customerId" z="dAJrJYqDOnCYBKv8UJbAv4d+rkw="/>
+            <table:column calendar="true" dateTimePattern="${order_deadline_date_format}" id="c_com_myessay_model_Order_deadLine" property="deadLine" z="sWjPMgJL/nAn8qyWKMMF9eHLyUY="/>
+            <table:column id="c_com_myessay_model_Order_format" property="format" z="NpZ+Az2uCvh7bX4KBRqzmxWPBn8="/>
+        </table:table>
+    </page:list>
+</div>

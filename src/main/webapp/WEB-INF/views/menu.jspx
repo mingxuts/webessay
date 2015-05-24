@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_subject" z="7o1gOZ254r8rrLkTPEMR4T4CYTs=">
+            <menu:item id="i_subject_new" messageCode="global_menu_new" url="/subjects?form" z="K/cpx4U1MG0/LtXu68wamJ7ttg0="/>
+            <menu:item id="i_subject_list" messageCode="global_menu_list" url="/subjects?page=1&amp;size=${empty param.size ? 10 : param.size}" z="EQd4RQgsWkj2hqqLFZF+zKoYy0I="/>
+        </menu:category>
+        <menu:category id="c_userinfo" z="wp5yFzdbyDI+Dtuj/pSBCxK3UHA=">
+            <menu:item id="i_userinfo_new" messageCode="global_menu_new" url="/userinfoes?form" z="jGpK8Q3EcXGhijBcCm+M83p+7PM="/>
+            <menu:item id="i_userinfo_list" messageCode="global_menu_list" url="/userinfoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="wTZf/0/g2xvsX1MjMAQwgE/LJmM="/>
+        </menu:category>
+        <menu:category id="c_job" z="Spq9e4Ex4B3IMcYI5WfoQsLFC30=">
+            <menu:item id="i_job_new" messageCode="global_menu_new" url="/jobs?form" z="LPLNOdNVR7SU3S6Mm86Cya2uODg="/>
+            <menu:item id="i_job_list" messageCode="global_menu_list" url="/jobs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="40TPkqDKrJpvrpVeIfIWHa+/lZU="/>
+        </menu:category>
+        <menu:category id="c_order" z="DMSr2AlxRHEQCAkmRnnjt3RDnsM=">
+            <menu:item id="i_order_new" messageCode="global_menu_new" url="/orders?form" z="HMoM+4/m3h1QgIvBetk1yPWNRrE="/>
+            <menu:item id="i_order_list" messageCode="global_menu_list" url="/orders?page=1&amp;size=${empty param.size ? 10 : param.size}" z="n7p5vcljroIqmYedxF2+3ZmawhY="/>
+        </menu:category>
+        <menu:category id="c_message" z="2mg8OfqheWP/rnVu0slpEU516Yk=">
+            <menu:item id="i_message_new" messageCode="global_menu_new" url="/messages?form" z="6ME+t1wCXxIe0ueapV28lZ5YUi0="/>
+            <menu:item id="i_message_list" messageCode="global_menu_list" url="/messages?page=1&amp;size=${empty param.size ? 10 : param.size}" z="eGv0nXC/JpwInH30nZdjM2e3PxE="/>
+        </menu:category>
+        <menu:category id="c_role" z="LPygIx2EuEArCzqsfpQQev0lHyc=">
+            <menu:item id="i_role_new" messageCode="global_menu_new" url="/roles?form" z="WNB2HvnzvtbOA3r7qL1gqrUOq8g="/>
+            <menu:item id="i_role_list" messageCode="global_menu_list" url="/roles?page=1&amp;size=${empty param.size ? 10 : param.size}" z="DVFtqj4xcHbEiJh6bgI7Tyre3ec="/>
+        </menu:category>
+    </menu:menu>
+</div>

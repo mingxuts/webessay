@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_myessay_model_Order" object="${order}" path="/orders" z="eAl6ckmGlD4MZC1uaSDd7RbVJR8=">
+        <field:display field="coupon" id="s_com_myessay_model_Order_coupon" object="${order}" z="uV4x6ew0F91qFYflHlCq2bcAzUU="/>
+        <field:display field="courseLevel" id="s_com_myessay_model_Order_courseLevel" object="${order}" z="USTRJIu3ydmVmOW8v9Z804bD0Ro="/>
+        <field:display calendar="true" dateTimePattern="${order_createdate_date_format}" field="createDate" id="s_com_myessay_model_Order_createDate" object="${order}" z="I8MDcbyTIsjpX+ejiC6lwlUBuJQ="/>
+        <field:display field="customerId" id="s_com_myessay_model_Order_customerId" object="${order}" z="eQioLi9lLdEBuLI40zZnV799l6g="/>
+        <field:display calendar="true" dateTimePattern="${order_deadline_date_format}" field="deadLine" id="s_com_myessay_model_Order_deadLine" object="${order}" z="lSLO9GPk6kjDR5gIZjPEJaKtn/I="/>
+        <field:display field="format" id="s_com_myessay_model_Order_format" object="${order}" z="QKY6zt4bNQvXTUZHGZhL/agPGk0="/>
+        <field:display field="includeFigure" id="s_com_myessay_model_Order_includeFigure" object="${order}" z="NJ1YpOlM0K2hWY7EF/3+6Oi4Tdg="/>
+        <field:display field="note" id="s_com_myessay_model_Order_note" object="${order}" z="jJwT8O9tMeYhfNrHuboJRePIAO0="/>
+        <field:display field="orderStatus" id="s_com_myessay_model_Order_orderStatus" object="${order}" z="YMgA8CSprrvL/iGSQgpun4UyRNg="/>
+        <field:display field="referencing" id="s_com_myessay_model_Order_referencing" object="${order}" z="HFTmIBsdbMASJQTXiamokDbsnWs="/>
+        <field:display field="sourcesCount" id="s_com_myessay_model_Order_sourcesCount" object="${order}" z="cX0xLM8sliVYKX5il8T+Csbkucs="/>
+        <field:display calendar="true" dateTimePattern="${order_startdate_date_format}" field="startDate" id="s_com_myessay_model_Order_startDate" object="${order}" z="Vc1K+mbKQ+9JbbSoODsydp+P4cI="/>
+        <field:display field="wordCount" id="s_com_myessay_model_Order_wordCount" object="${order}" z="VsNAGms+HNnb3Cv+ruZG9Q8RonU="/>
+        <field:display field="subjectId" id="s_com_myessay_model_Order_subjectId" object="${order}" z="tpPUoo9fFV9uTxpHwOUF/wGKhgQ="/>
+        <field:display field="taskId" id="s_com_myessay_model_Order_taskId" object="${order}" z="OHcQ6e+f0oBMyiPkg+DGXO9lCGw="/>
+        <field:display field="fileId" id="s_com_myessay_model_Order_fileId" object="${order}" z="ya/l1Ym+4L1LWZGJcrGjhHIGWcs="/>
+    </page:show>
+</div>

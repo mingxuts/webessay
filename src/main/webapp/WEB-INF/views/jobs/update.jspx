@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_myessay_model_Job" modelAttribute="job" path="/jobs" versionField="none" z="d6u46v4dBNJ8AWeqDwN6QysgCTE=">
+        <field:select field="writerId" id="c_com_myessay_model_Job_writerId" itemValue="id" items="${userinfoes}" path="/userinfoes" z="vFhSjaxts9tSy+qTWo47qB6e0Ao="/>
+        <field:select field="customerId" id="c_com_myessay_model_Job_customerId" itemValue="id" items="${userinfoes}" path="/userinfoes" z="BtKI4p8Ap1dNo2uVkX13fVNIujI="/>
+        <field:checkbox field="allowAllSubject" id="c_com_myessay_model_Job_allowAllSubject" z="NH7njV37fsUeiQuGZIC0BumISjw="/>
+        <field:input field="amountDue" id="c_com_myessay_model_Job_amountDue" validationMessageCode="field_invalid_number" z="omZrNz7PZ+jzEJdlTlCgqQ5lYmY="/>
+        <field:input field="chargeWriter" id="c_com_myessay_model_Job_chargeWriter" validationMessageCode="field_invalid_number" z="GIGbHGcVwXv/A8PdTqFJ1dsGbow="/>
+        <field:input field="commission" id="c_com_myessay_model_Job_commission" validationMessageCode="field_invalid_number" z="IP+YR67GapH5XRAQNym86PJ9YP0="/>
+        <field:input field="coupon" id="c_com_myessay_model_Job_coupon" z="xwrRzONfS6O7chcmFIDjeo+SrvA="/>
+        <field:input field="courseLevel" id="c_com_myessay_model_Job_courseLevel" z="rC268E+EF6AVkc2buPw8A12c+TU="/>
+        <field:datetime dateTimePattern="${job_createdate_date_format}" field="createDate" id="c_com_myessay_model_Job_createDate" z="/XRPc8yGtSMqKgxMUzXTk84gZXo="/>
+        <field:datetime dateTimePattern="${job_deadline_date_format}" field="deadLine" id="c_com_myessay_model_Job_deadLine" z="xntM+xgaujISEby7ISbpgdhUs24="/>
+        <field:input field="feedBack" id="c_com_myessay_model_Job_feedBack" z="jLfKahxTN66xfs//+g56+4Mq8Rc="/>
+        <field:input field="feedBackDescription" id="c_com_myessay_model_Job_feedBackDescription" z="Z7FgKClYfxD19Irt9iRCIKuijTQ="/>
+        <field:input field="format" id="c_com_myessay_model_Job_format" z="gwIoU6tLOliyUfwO5sF8k5t5+iI="/>
+        <field:input field="fullPrice" id="c_com_myessay_model_Job_fullPrice" validationMessageCode="field_invalid_number" z="uMBGT6UoJKIXaywtsWCWZ9TDTtM="/>
+        <field:input field="includeFigure" id="c_com_myessay_model_Job_includeFigure" z="eacCTskou3fxhqowuozoI778o1c="/>
+        <field:input field="note" id="c_com_myessay_model_Job_note" z="QGPZJkf938L+y/IAOIZb0qYHtlc="/>
+        <field:input field="orderId" id="c_com_myessay_model_Job_orderId" required="true" validationMessageCode="field_invalid_integer" z="OewofSgeripze6EjC9tur47Zokg="/>
+        <field:input field="reduced" id="c_com_myessay_model_Job_reduced" validationMessageCode="field_invalid_number" z="JE8UjyUVRqXpRDaaaeAItA+IEhY="/>
+        <field:input field="referencing" id="c_com_myessay_model_Job_referencing" z="V/VNB+yP5JN+pqhNM2LS5T1VFHk="/>
+        <field:input field="sourcesCount" id="c_com_myessay_model_Job_sourcesCount" validationMessageCode="field_invalid_integer" z="fag+t4ZIDPGmdAT6R7BHQJS03T4="/>
+        <field:datetime dateTimePattern="${job_startdate_date_format}" field="startDate" id="c_com_myessay_model_Job_startDate" z="asMH/JtMYKJzHN3Ju5KIWIrIoYQ="/>
+        <field:input field="status" id="c_com_myessay_model_Job_status" z="I5ZO6hvqI706zDBjsRtOQoFjl40="/>
+        <field:input field="subjectId" id="c_com_myessay_model_Job_subjectId" validationMessageCode="field_invalid_integer" z="itmxVgnn3Fa+xvdAr9OPBUQVV84="/>
+        <field:input field="wordCount" id="c_com_myessay_model_Job_wordCount" validationMessageCode="field_invalid_integer" z="8jnWzn60PiAYEdlV8E2Zj55gTlc="/>
+        <field:input field="fileId" id="c_com_myessay_model_Job_fileId" validationMessageCode="field_invalid_integer" z="oZVFrr6idvrPz+587wHapvdfu5c="/>
+    </form:update>
+</div>

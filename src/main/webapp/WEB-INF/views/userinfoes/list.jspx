@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_myessay_model_Userinfo" items="${userinfoes}" z="goLdhTCYdzEMgMQA6eQ+hAJDZEY=">
+        <table:table data="${userinfoes}" id="l_com_myessay_model_Userinfo" path="/userinfoes" z="oPY+Fn4Tw+0N4Mbv5HeQZCHB8uQ=">
+            <table:column id="c_com_myessay_model_Userinfo_city" property="city" z="/NVZUuU0STK4keO1iR1CDdvXPkg="/>
+            <table:column id="c_com_myessay_model_Userinfo_contactId" property="contactId" z="rIDdE1X6pbPxebKki0LZJcuyrTI="/>
+            <table:column id="c_com_myessay_model_Userinfo_contactType" property="contactType" z="qN95jYHE7FSAq7xxcx4yQD5XPw0="/>
+            <table:column id="c_com_myessay_model_Userinfo_country" property="country" z="TdlTeAZru7SbkoNpxEYXLymrToM="/>
+        </table:table>
+    </page:list>
+</div>
