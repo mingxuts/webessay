@@ -12,3 +12,5 @@ security setup
 // Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-05-24 20:09:43
 database reverse engineer --schema paperdemo --repository --testAutomatically --package ~.model
 // Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-05-24 20:10:38
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-05-24 20:55:54
+backup
