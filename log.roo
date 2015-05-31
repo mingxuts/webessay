@@ -15,3 +15,12 @@ database reverse engineer --schema paperdemo --repository --testAutomatically --
 // Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-05-24 20:55:54
 backup
 // Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-05-24 20:57:01
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-05-31 12:27:58
+backup
+web mvc controller --class ~.web.testupload
+database reverse engineer --schema paperdemo --repository --testAutomatically --package ~.model
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-05-31 18:01:58
+database reverse engineer --schema paperdemo --repository --testAutomatically --package ~.model
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-05-31 18:06:51
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-05-31 18:28:19
+web mvc controller --class ~.web.orderform

@@ -27,5 +27,9 @@
             <menu:item id="i_role_new" messageCode="global_menu_new" url="/roles?form" z="WNB2HvnzvtbOA3r7qL1gqrUOq8g="/>
             <menu:item id="i_role_list" messageCode="global_menu_list" url="/roles?page=1&amp;size=${empty param.size ? 10 : param.size}" z="DVFtqj4xcHbEiJh6bgI7Tyre3ec="/>
         </menu:category>
+        <menu:category id="c_controller" z="nj8Dm3hojIyIEyPkwE1UMDIs+K8=">
+            <menu:item id="i_controller__testuploadindex_id" messageCode="global_generic" url="/testupload/index" z="95e/vacQ1mvjW96UtSsQAHUGNII="/>
+            <menu:item id="i_controller__orderformindex_id" messageCode="global_generic" url="/orderform/index" z="A2QyONV4sW0qGk6iMlvTXbbsRfA="/>
+        </menu:category>
     </menu:menu>
 </div>
